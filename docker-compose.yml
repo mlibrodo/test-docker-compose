@@ -1,5 +1,5 @@
 redis:
  build: dockerfiles/redis
- hostname:redis
+ hostname: redis
  ports:
     - "6379:6379"
